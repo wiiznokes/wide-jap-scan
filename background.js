@@ -1,12 +1,12 @@
 const CSS = `
-  .container {
-
-    visibility: hidden;
-    #display: none;
+  .container.sticky-top {
+    display: none;
   }
-
-  .container.text-center {
-    visibility: visible;
+  [class='container'] {
+    display: none;
+  }
+  .container.mt-4 {
+    display: none;
   }
 `;
 const TITLE_APPLY = "Apply CSS";
