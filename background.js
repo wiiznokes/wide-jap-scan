@@ -1,4 +1,7 @@
 const CSS = `
+  body {
+    #border: 200px solid red;
+  }
   .container.sticky-top {
     display: none;
   }
