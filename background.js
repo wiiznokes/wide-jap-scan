@@ -1,6 +1,12 @@
 const CSS = `
-  .container.sticky-top {
-    display: none;
+  .container {
+
+    visibility: hidden;
+    #display: none;
+  }
+
+  .container.text-center {
+    visibility: visible;
   }
 `;
 const TITLE_APPLY = "Apply CSS";
